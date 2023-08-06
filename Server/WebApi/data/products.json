@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/RPS56_L_P_7296073151555_1.png",
+      "name": "מלח שולחן דק שופרסל",
+      "manufacturer": "שופרסל",
+      "unitDescription": "1 ק\"ג",
+      "price": "1.8",
+      "unit": "יח'",
+      "sku": "7296073151555"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/RPL58_L_P_7296073151548_1.png",
+      "name": "מלח בישול גס שופרסל",
+      "manufacturer": "שופרסל",
+      "unitDescription": "1 ק\"ג",
+      "price": "1.8",
+      "unit": "יח'",
+      "sku": "7296073151548"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/VVP56_L_P_7296073224716_1.png",
+      "name": "ביצים XL שופרסל",
+      "manufacturer": "שופרסל",
+      "unitDescription": "12 יחידות",
+      "price": "15.19",
+      "unit": "יח'",
+      "sku": "7296073224716"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/VUS60_L_P_7296073224693_1.png",
+      "name": "ביצים M שופרסל",
+      "manufacturer": "שופרסל",
+      "unitDescription": "12 יחידות",
+      "price": "12.89",
+      "unit": "יח'",
+      "sku": "7296073224693"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/RKZ26_Z_P_2824640_1.png",
+      "name": "גבינה לבנה סקי 5%",
+      "manufacturer": "סקי",
+      "unitDescription": "250 גרם",
+      "price": "5.43",
+      "unit": "יח'",
+      "sku": "2824640"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/SGG26_Z_P_48185_1.png",
+      "name": "גבינה לבנה רכה 5% שומן",
+      "manufacturer": "תנובה",
+      "unitDescription": "250 גרם",
+      "price": "5.43",
+      "unit": "יח'",
+      "sku": "48185"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/AAL20_Z_P_4131074_1.png",
+      "name": "חלב בקרטון 3% שומן",
+      "manufacturer": "תנובה",
+      "unitDescription": "1 ליטר",
+      "price": "6.81",
+      "unit": "יח'",
+      "sku": "4131074"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/JTC18_Z_P_42435_1.png",
+      "name": "חלב מפוסטר 1% בקרטון",
+      "manufacturer": "תנובה",
+      "unitDescription": "1 ליטר",
+      "price": "6.41",
+      "unit": "יח'",
+      "sku": "42435"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/JCY12_Z_P_42015_1.png",
+      "name": "חלב מפוסטר3% מהדרין שקית",
+      "manufacturer": "תנובה",
+      "unitDescription": "1 ליטר",
+      "price": "5.94",
+      "unit": "יח'",
+      "sku": "42015"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/LUD20_Z_P_43814_1.png",
+      "name": "שמנת עמידה לקצפת 38%",
+      "manufacturer": "השף הלבן",
+      "unitDescription": "250 מ\"ל",
+      "price": "7.07",
+      "unit": "יח'",
+      "sku": "43814"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/RSI26_Z_P_4125455_1.png",
+      "name": "שמנת תנובה 15%שומן",
+      "manufacturer": "תנובה",
+      "unitDescription": "250 מ\"ל",
+      "price": "2.63",
+      "unit": "יח'",
+      "sku": "4125455"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/NXC60_Z_P_7296073219347_1.png",
+      "name": "לחם אחיד פרוס",
+      "manufacturer": "שופרסל",
+      "unitDescription": "750 גרם",
+      "price": "7.5",
+      "unit": "יח'",
+      "sku": "7296073219347"
+    },
+    {
+      "baseProductImage": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/AWW74_Z_P_7296073579649_1.png",
+      "name": "לחם אחיד פרוס שופרסל",
+      "manufacturer": "שופרסל",
+      "unitDescription": "900 גרם",
+      "price": "8.7",
+      "unit": "יח'",
+      "sku": "7296073579649"
+    }
+  ]
+}
