@@ -1,0 +1,47 @@
+<mat-card class="text-blue pb-0">
+  <button mat-icon-button *ngIf="cart" (click)="removeFromCart()">
+    <mat-icon> highlight_off</mat-icon>
+  </button>
+  <mat-card-header class="justify-content-center">
+    <img mat-card-image [src]="product.baseProductImage" class="imgContainer" />
+  </mat-card-header>
+  <mat-card-content>
+    <mat-card-title>
+      <strong> {{ product.name }} </strong>
+    </mat-card-title>
+    <mat-card-subtitle class="text-blue">
+      <span> {{ product.unitDescription }} | {{ product.manufacturer }} </span>
+    </mat-card-subtitle>
+    <span class="h5">
+      <span class="currency">&#8362;</span>
+      <span>{{ (cart && product.count) ?+product.price*product.count:product.price }}</span>
+    </span>
+  </mat-card-content>
+
+  <mat-card-footer class="text-red">
+    <mat-card-actions>
+      <div class="d-flex align-items-center">
+        <div class="col-2">
+          <button mat-icon-button (click)="add()">
+            <mat-icon> add_circle_outlined </mat-icon>
+          </button>
+        </div>
+        <div class="col-3">
+          <input readonly type="tel" class="w-50 fs-5 text-blue text-center" [formControl]="unit" digitOnly matTooltip="כמות המינימלית בקניה 1 יח'
+          " matTooltipPosition="above" #tooltip="matTooltip"/>
+          <span class="text-blue">
+            {{ product.unit }}
+          </span>
+        </div>
+        <div class="col-2">
+          <button mat-icon-button class="text-end p-0" (click)="minus()">
+            <mat-icon> remove_circle_outline</mat-icon>
+          </button>
+        </div>
+        <button mat-raised-button [ngClass]="product.count?'bg-blue-light':'bg-red'" (click)="updateCartWS()">
+          {{ product.count? 'עדכון':'הוספה'}}
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card-footer>
+</mat-card>

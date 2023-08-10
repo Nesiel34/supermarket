@@ -1,0 +1,9 @@
+    <form class="d-flex mt-3 justify-content-center w-100">
+      <mat-form-field class="example-full-width w-50" appearance="outline">
+        <mat-label>{{searchTxt}}</mat-label>
+        <input type="text"
+               [placeholder]="searchTxt"
+               matInput
+               [formControl]="search">
+      </mat-form-field>
+    </form>

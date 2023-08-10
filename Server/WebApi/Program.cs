@@ -1,3 +1,5 @@
+using BLL;
+using BLL.Interface;
 using BLL.Models;
 using Server.Middleware;
 
@@ -10,6 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<CartBLL>();
 
 builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
 {

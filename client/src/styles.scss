@@ -1,4 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
+@import 'variables';
+html, body { height: 100%;direction: rtl; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.text-red{
+  color:$primary !important;
+}
+.bg-red{
+  background-color: $primary !important;
+  color:#FFF !important;
+}
+.text-blue{
+  color:$secondary !important;
+}
+.bg-blue-light{
+  background:$blue-light !important;
+  color:#FFF !important;
+}
+.currency{
+  font-size: 10px;
+}

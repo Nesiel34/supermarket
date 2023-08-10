@@ -16,5 +16,10 @@ namespace BLL
         public List<ProductModel> GetAllProducts() { 
             return _product;
         }
+
+        public List<ProductModel> SearchProductByNameOrMakat(string search)
+        {
+           return _product.Where(w=>w.sku.Contains(search) || w.name.Contains(search)).ToList();
+        }
     }
 }

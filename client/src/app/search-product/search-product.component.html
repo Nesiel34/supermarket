@@ -1,0 +1,4 @@
+<app-search (searchValueChangeOutput)="searchValueChange($event)" [searchTxt]="'חיפוש מוצר'"></app-search>
+<div class="d-flex flex-wrap justify-content-center justify-content-md-start pb-4">
+<app-product *ngFor="let product of products"  [product]="product" [cart]="false"></app-product>
+</div>

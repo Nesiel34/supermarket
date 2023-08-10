@@ -1,0 +1,8 @@
+<app-search (searchValueChangeOutput)="searchValueChange($event)" [searchTxt]="'חיפוש מוצר בסל'"></app-search>
+<button mat-raised-button class="bg-red d-block mx-auto payment" >
+לתשלום:<span class="currency">&#8362;</span> <strong>{{sum|number:'1.0-2'}}</strong>
+</button>
+<div class="d-flex flex-wrap justify-content-center justify-content-md-start pb-4">
+
+<app-product *ngFor="let product of productsArr"  [product]="product" [cart]="true"></app-product>
+</div>

@@ -1,0 +1,21 @@
+mat-card{
+  padding-top: 12px;
+  width: 300px;
+  // min-height: 327px;
+  // margin-right: -1px;
+  border-bottom: 1px solid #dbe1f0;
+}
+
+.imgContainer{
+  max-height: 155px;
+}
+mat-card-footer{
+  // position: absolute;
+  // bottom:0;
+  // width:100%;
+  background: #f0f3f9;
+
+  .border-grey{
+    border: 2px solid #e0e2e9;
+  }
+}

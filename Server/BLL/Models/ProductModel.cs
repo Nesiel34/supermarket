@@ -9,5 +9,6 @@
         public string price { get; set; }
         public string unit { get; set; }
         public string sku { get; set; }
+        public int? count { get; set; }
     }
 }
